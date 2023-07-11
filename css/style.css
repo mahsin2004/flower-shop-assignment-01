@@ -63,22 +63,67 @@ span {
   margin-bottom: 24px;
 }
 
+
+/*==================
+ Header Area...
+ Top Navigation Area 
+====================*/
+header {
+  width: 100%;
+  background-color: rgba(229, 84, 115, 0.10);
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 600px;
+  padding: 24px;
+}
+
+nav>ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  gap: 35px;
+}
+
+nav,
+a {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 400;
+  color: #272727;
+  padding: 15px 25px 15px 25px;
+}
+
+nav>ul>li>a:hover {
+  color: #E55473;
+  background-color: #FFF;
+  border-radius: 8px;
+}
+
+.select-home {
+  color: #E55473;
+  background-color: #FFF;
+  border-radius: 8px;
+}
+
+.logo {
+  width: 120px;
+  cursor: pointer;
+}
+
 /*==================
  Header Area... 
  Banner Area Style
 ====================*/
-header {
-  width: 100%;
-}
-
 .banner-container {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 97px;
-  padding: 50px 240px 0px 240px;
-  background-color: rgba(229, 84, 115, 0.10);
-  ;
 }
 
 .banner-information,
@@ -87,6 +132,9 @@ p {
   margin-bottom: 32px;
 }
 
+.banner-image {
+  margin-bottom: -3px;
+}
 
 /*==================
  Main Area... 
@@ -135,6 +183,7 @@ p {
   line-height: 35px;
   text-decoration-line: underline;
   margin-top: 32px;
+  cursor: pointer;
 }
 
 /*==================
@@ -221,7 +270,6 @@ button {
 input {
   border-radius: 8px;
   width: 678px;
-  ;
   background: #FFF;
   border-style: none;
   padding: 22px 0px 22px 22px;
@@ -264,7 +312,6 @@ input {
   color: rgba(255, 255, 255, 0.40);
   text-align: center;
   font-size: 16px;
-  ;
   font-weight: 400;
   margin-top: 32px;
 }
