@@ -205,6 +205,14 @@ p {
   margin-top: 128px;
 }
 
+.service-tittle {
+  color: rgba(39, 39, 39, 0.80);
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 35px;
+}
+
 .service>img {
   margin-bottom: 24px;
 }
